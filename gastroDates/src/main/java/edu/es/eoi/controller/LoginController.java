@@ -28,5 +28,10 @@ public class LoginController {
 		
 		
 	}
+	
+	public void logout() {
+		MainApp.user=null;
+		LoginMenu.printMenuLogin();
+	}
 
 }

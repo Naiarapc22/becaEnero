@@ -17,7 +17,7 @@ public class LoginMenu {
 	
 		Scanner scanner=new Scanner(System.in);
 		String user=scanner.nextLine();
-		System.out.println("Introduzca paswword: ");
+		System.out.println("Introduzca password: ");
 		scanner=new Scanner(System.in);
 		String password=scanner.nextLine();			
 		
