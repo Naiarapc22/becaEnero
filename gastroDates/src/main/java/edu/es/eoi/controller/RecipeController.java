@@ -6,12 +6,15 @@ import edu.es.eoi.ui.MainMenu;
 import edu.es.eoi.ui.RecipesListView;
 
 public class RecipeController {
+	
+	public void readAll(){		
+		
+		RecipeService service= new RecipeServiceImpl();		
 
-		public void readAll() {
-			RecipeService service = new RecipeServiceImpl();
-			
-			RecipesListView.printAllRecipes(service.readAll());
-			
-			MainMenu.printMenuMain();
-		}
+		RecipesListView.printAllRecipes(service.readAll());
+		
+		MainMenu.printMenuMain();
+		
+	}
+
 }

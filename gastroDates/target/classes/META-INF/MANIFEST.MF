@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Built-By: naiar
+Build-Jdk: 14.0.2
+Main-Class: edu.es.eoi.main.gastroDatesMainApp
+Created-By: Maven Integration for Eclipse
+

@@ -7,4 +7,5 @@ import edu.es.eoi.entity.Recipe;
 public interface RecipeService {
 	
 	public Collection<Recipe> readAll();
+
 }
